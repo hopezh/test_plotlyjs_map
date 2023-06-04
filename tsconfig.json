@@ -1,0 +1,16 @@
+{
+    "extends": "@tsconfig/vite/tsconfig.json",
+    "compilerOptions": {
+        "types": [
+            "danfojs"
+        ]
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "references": [
+        {
+            "path": "./tsconfig.node.json"
+        }
+    ]
+}
